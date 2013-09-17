@@ -3,6 +3,9 @@
 
     <string name="app_name">4.1-MyHealth-DEVICE</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="device">Measurement Device</string>
+    <string name="blood_presure">Blood Presure</string>
+    <string name="pulse">Pulse</string>
+    <string name="ecg">ECG</string>
 
 </resources>
