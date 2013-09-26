@@ -7,5 +7,7 @@
     <string name="blood_presure">Blood Presure</string>
     <string name="pulse">Pulse</string>
     <string name="ecg">ECG</string>
+    <string name="title_activity_blood_presure">BloodPresureActivity</string>
+    <string name="send_data">Send Data</string>
 
 </resources>

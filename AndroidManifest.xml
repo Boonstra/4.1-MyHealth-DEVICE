@@ -22,6 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.MyHealth.device.BloodPresureActivity"
+            android:label="@string/title_activity_blood_presure" >
+        </activity>
+        
     </application>
 
 </manifest>
