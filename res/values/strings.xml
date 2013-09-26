@@ -9,5 +9,7 @@
     <string name="ecg">ECG</string>
     <string name="title_activity_blood_presure">BloodPresureActivity</string>
     <string name="send_data">Send Data</string>
+    <string name="title_activity_pulse">PulseActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

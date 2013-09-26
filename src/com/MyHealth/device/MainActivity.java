@@ -30,4 +30,9 @@ public class MainActivity extends Activity {
 		startActivity(intent);
 	}
 
+	public void pulseButtonClick(View v){
+		Log.i(TAG,"To Pulse");
+		Intent intent = new Intent(this,PulseActivity.class);
+		startActivity(intent);
+	}
 }

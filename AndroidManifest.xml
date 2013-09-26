@@ -26,7 +26,10 @@
             android:name="com.MyHealth.device.BloodPresureActivity"
             android:label="@string/title_activity_blood_presure" >
         </activity>
-        
+        <activity
+            android:name="com.MyHealth.device.PulseActivity"
+            android:label="@string/title_activity_pulse" >
+        </activity>
     </application>
 
 </manifest>
