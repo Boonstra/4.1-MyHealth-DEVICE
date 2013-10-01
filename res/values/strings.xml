@@ -11,5 +11,6 @@
     <string name="send_data">Send Data</string>
     <string name="title_activity_pulse">PulseActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ecg">ECGActivity</string>
 
 </resources>
