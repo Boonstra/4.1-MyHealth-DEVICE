@@ -11,9 +11,9 @@ import android.widget.TextView;
 public class ECGActivity extends Activity implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
-	private int[] leadI;
-	private int[] leadII;
-	private int[] leadIII;
+	private String leadI;
+	private String leadII;
+	private String leadIII;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class ECGActivity extends Activity implements Serializable{
 		text.setText("Your ECG is recorded. Press send to send the data to your phone.");
 	}
 
-	private int[] generateLead() {
+	private String generateLead() {
 		int[] temp = new int[50];
 		Random random = new Random();
 		temp[0] = 0;
@@ -53,7 +53,12 @@ public class ECGActivity extends Activity implements Serializable{
 		for(int i=0;i<25;i++){
 			temp[i+25] = temp[i];
 		}
-		return temp;
+		String tempStr = ""+temp[0];
+		for(int i=1;i<50;i++){
+			tempStr += "/"+i;
+		}
+		tempStr += ";";
+		return tempStr;
 	}
 
 	@Override
@@ -63,13 +68,13 @@ public class ECGActivity extends Activity implements Serializable{
 		return true;
 	}
 
-	public int[] getLeadI(){
+	public String getLeadI(){
 		return leadI;
 	}
-	public int[] getLeadII(){
+	public String getLeadII(){
 		return leadII;
 	}
-	public int[] getLeadIII(){
+	public String getLeadIII(){
 		return leadIII;
 	}
 }
