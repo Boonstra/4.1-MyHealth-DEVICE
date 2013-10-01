@@ -6,6 +6,7 @@ import java.util.Random;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class ECGActivity extends Activity implements Serializable{
 	
@@ -21,6 +22,8 @@ public class ECGActivity extends Activity implements Serializable{
 		leadI = generateLead();
 		leadII = generateLead();
 		leadIII = generateLead();
+		TextView text = (TextView) findViewById(R.id.textView1);
+		text.setText("Your ECG is recorded. Press send to send the data to your phone.");
 	}
 
 	private int[] generateLead() {

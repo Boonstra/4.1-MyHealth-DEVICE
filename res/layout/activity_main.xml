@@ -43,6 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:layout_weight="1"
+        android:onClick="ecgButtonClick"
         android:text="@string/ecg" />
 
 </LinearLayout>

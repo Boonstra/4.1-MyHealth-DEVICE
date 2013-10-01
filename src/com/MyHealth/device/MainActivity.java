@@ -35,4 +35,10 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this,PulseActivity.class);
 		startActivity(intent);
 	}
+	
+	public void ecgButtonClick(View v){
+		Log.i(TAG,"To ECG");
+		Intent intent = new Intent(this,ECGActivity.class);
+		startActivity(intent);
+	}
 }
